@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
-      base: '/e-phyto-p.q.7-submission-system/',
+      base: '/ecert-exporter-mock/',
       server: {
         port: 3000,
         host: '0.0.0.0',
