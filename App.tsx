@@ -79,7 +79,7 @@ const App: React.FC = () => {
       <aside className={`${isSidebarOpen ? 'w-64' : 'w-20'} bg-primary transition-all duration-300 flex flex-col z-20`}>
         <div className="p-6 flex items-center gap-4 text-white">
           <div className="bg-white/20 p-2 rounded-lg"><ShieldCheck size={24} /></div>
-          {isSidebarOpen && <span className="font-bold text-lg tracking-tight">e-Phyto Portal</span>}
+          {isSidebarOpen && <span className="font-bold text-lg tracking-tight">E-CERT</span>}
         </div>
 
         <nav className="flex-1 px-4 py-6 space-y-2">
